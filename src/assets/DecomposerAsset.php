@@ -9,9 +9,6 @@ use yii\bootstrap\BootstrapAsset;
  * {@inheritDoc}
  */
 class DecomposerAsset extends AssetBundle {
-    public $jsOptions = [
-        'position' => \yii\web\View::POS_END
-    ];
     public $sourcePath = '@vendor/thangnm93/yii2-decomposer/src/assets';
     /**
      * {@inheritDoc}

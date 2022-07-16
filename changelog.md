@@ -1,3 +1,6 @@
+## v0.1.2 (16-07-2022)
+- Fix bug InvalidConfigException
+-----
 ## v0.1.1 (16-07-2022)
 - Fix bug jQuery is not defined
 -----
