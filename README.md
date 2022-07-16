@@ -115,3 +115,20 @@ Get Report as JSON
   ```
 - It returns the report as JSON
 
+## Contributing
+
+-----
+
+Thank you for considering contributing to the Yii 2 Decomposer. You can read the contribution guide lines [here](contributing.md)
+
+## Security
+
+-----
+
+If you discover any security related issues, please email to [contact@thangnm.info](mailto:contact@thangnm.info).
+
+## Credits
+
+-----
+
+- [Thang Nguyen](https://github.com/thangnm93)

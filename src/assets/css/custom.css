@@ -1,6 +1,9 @@
 .decomposer {
     padding: 10px;
 }
+#decomposer_filter, #decomposer_paginate {
+    float: right;
+}
 .ld-version-tag {
     background-color: #F5716C;
 }

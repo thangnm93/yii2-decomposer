@@ -176,38 +176,18 @@ $this->title = $title;
     </div>
 </div>
 <script>
-    (function($){
-        $(document).ready(function() {
-            $('#decomposer').DataTable({
-                'order': [[ 0, 'desc' ]],
-                searchHighlight: true,
-                "language": {
-                    "search": '<?= Yii::t('decomposer', "Search") ?>',
-                    "lengthMenu": '<?= Yii::t('decomposer', "Display _MENU_ records per page") ?>',
-                    "zeroRecords": '<?= Yii::t('decomposer', "No matching records found") ?>',
-                    "info": '<?= Yii::t('decomposer', "Showing _START_ to _END_ of _TOTAL_ entries") ?>',
-                    "infoEmpty": '<?= Yii::t('decomposer', "No records available") ?>',
-                    "infoFiltered": '<?= Yii::t('decomposer', "(filtered from _MAX_ total records)") ?>',
-                    "paginate": {
-                        "first": '<?= Yii::t('decomposer', "First") ?>',
-                        "last": '<?= Yii::t('decomposer', "Last") ?>',
-                        "next": '<?= Yii::t('decomposer', "Next") ?>',
-                        "previous": '<?= Yii::t('decomposer', "Previous") ?>'
-                    },
-                }
-            });
-            let s = document.getElementById("txt-report").value;
-            s = s.replace(/(^\s*)|(\s*$)/gi,"");
-            s = s.replace(/[ ]{2,}/gi," ");
-            s = s.replace(/\n /,"\n");
-            document.getElementById("txt-report").value = s;
-            $('#btn-report').on('click', function() {
-                $("#report-wrapper").slideToggle();
-            });
-            $("#copy-report").on('click', function() {
-                $("#txt-report").select();
-                document.execCommand("copy");
-            });
-        });
-    })(jQuery);
+    var DecomposerConfigs = {
+        "search": '<?= Yii::t('decomposer', "Search") ?>',
+        "lengthMenu": '<?= Yii::t('decomposer', "Display _MENU_ records per page") ?>',
+        "zeroRecords": '<?= Yii::t('decomposer', "No matching records found") ?>',
+        "info": '<?= Yii::t('decomposer', "Showing _START_ to _END_ of _TOTAL_ entries") ?>',
+        "infoEmpty": '<?= Yii::t('decomposer', "No records available") ?>',
+        "infoFiltered": '<?= Yii::t('decomposer', "(filtered from _MAX_ total records)") ?>',
+        "paginate": {
+            "first": '<?= Yii::t('decomposer', "First") ?>',
+            "last": '<?= Yii::t('decomposer', "Last") ?>',
+            "next": '<?= Yii::t('decomposer', "Next") ?>',
+            "previous": '<?= Yii::t('decomposer', "Previous") ?>'
+        }
+    }
 </script>

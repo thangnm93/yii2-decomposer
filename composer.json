@@ -27,7 +27,6 @@
   "require": {
     "php": ">=7.2",
     "ext-json": "*",
-    "ext-openssl": "*",
     "yiisoft/yii2": ">=2.0.13"
   }
 }
