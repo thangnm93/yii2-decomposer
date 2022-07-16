@@ -1,0 +1,33 @@
+{
+  "name": "thangnm93/yii2-decomposer",
+  "description": "A Yii2 package to decompose your installed packages, their dependencies, your app & server environment",
+  "license": "MIT",
+  "type" : "yii2-extension",
+  "keywords" : [
+    "yii2",
+    "thangnm93",
+    "decomposer",
+    "yii2 decomposer"
+  ],
+  "homepage" : "https://github.com/thangnm93/yii2-decomposer",
+  "support" : {
+    "source" : "https://github.com/thangnm93/yii2-decomposer"
+  },
+  "authors": [
+    {
+      "name": "Thang Nguyen",
+      "email": "contact@thangnm.info"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "thangnm93\\decomposer\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "yiisoft/yii2": ">=2.0.13"
+  }
+}
