@@ -17,7 +17,7 @@ For license information check the [LICENSE](LICENSE.txt)-file.
 
 ## Introduction
 
-------------
+----
 
 Yii 2 Decomposer decomposes and lists all the installed packages and their dependencies along with the Yii 2 Framework & the Server environment details your app is running in. All these just on the hit of a single route at `your-domain/decomposer`.
 
@@ -25,14 +25,14 @@ This extension base on [lubusIN/laravel-decomposer](https://github.com/lubusIN/l
 
 ## Requirements
 
-------------
+----
 
 * [PHP >= 7.2](http://php.net)
 * [yiisoft/yii2 >= 2.0.13](https://github.com/yiisoft/yii2)
 
 ## Installation
 
-------------
+----
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
@@ -53,7 +53,7 @@ to the require section of your `composer.json` file.
 
 ## Usage
 
------
+----
 
 Once the extension is installed, simply modify your application configuration as follows:
 
@@ -61,7 +61,7 @@ Once the extension is installed, simply modify your application configuration as
 return [
     'bootstrap' => ['decomposer'],
     'modules' => [
-        'debug' => [
+        'decomposer' => [
             'class' => 'thangnm93\decomposer\Module',
         ],
         // ...
@@ -117,18 +117,18 @@ Get Report as JSON
 
 ## Contributing
 
------
+----
 
 Thank you for considering contributing to the Yii 2 Decomposer. You can read the contribution guide lines [here](contributing.md)
 
 ## Security
 
------
+----
 
 If you discover any security related issues, please email to [contact@thangnm.info](mailto:contact@thangnm.info).
 
 ## Credits
 
------
+----
 
 - [Thang Nguyen](https://github.com/thangnm93)

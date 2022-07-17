@@ -1,3 +1,6 @@
+## v0.1.3 (17-07-2022)
+- Update README.md
+-----
 ## v0.1.2 (16-07-2022)
 - Fix bug InvalidConfigException
 -----
