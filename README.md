@@ -21,6 +21,8 @@ For license information check the [LICENSE](LICENSE.txt)-file.
 
 Yii 2 Decomposer decomposes and lists all the installed packages and their dependencies along with the Yii 2 Framework & the Server environment details your app is running in. All these just on the hit of a single route at `your-domain/decomposer`.
 
+The demo of this extension is available at [HERE](screenshots/decomposer.png)
+
 This extension base on [lubusIN/laravel-decomposer](https://github.com/lubusIN/laravel-decomposer) wrapper for Laravel user component.
 
 ## Requirements
