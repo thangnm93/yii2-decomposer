@@ -152,7 +152,7 @@ class DecomposerHelper
     }
 
     /**
-     * Get Laravel environment details
+     * Get Yii environment details
      *
      * @param $decomposerVersion
      * @return array

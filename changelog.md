@@ -1,3 +1,6 @@
+## v0.1.5 (19-07-2022)
+- Add missing functions to Decomposer component.
+-----
 ## v0.1.4 (19-07-2022)
 - Add PHPUnit for testing
 - Move DecomposerAsset to root folder
