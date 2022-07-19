@@ -1,3 +1,7 @@
+## v0.1.4 (19-07-2022)
+- Add PHPUnit for testing
+- Move DecomposerAsset to root folder
+-----
 ## v0.1.3 (17-07-2022)
 - Update README.md
 -----

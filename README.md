@@ -115,6 +115,12 @@ Get Report as JSON
   ```
 - It returns the report as JSON
 
+## Testing
+
+```bash
+$ ./vendor/bin/phpunit --testdox --coverage-text --coverage-clover=coverage.clover
+```
+
 ## Contributing
 
 ----
