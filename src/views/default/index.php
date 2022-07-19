@@ -1,5 +1,5 @@
 <?php
-use thangnm93\decomposer\assets\DecomposerAsset;
+use thangnm93\decomposer\DecomposerAsset;
 DecomposerAsset::register($this);
 $this->title = $title;
 ?>
